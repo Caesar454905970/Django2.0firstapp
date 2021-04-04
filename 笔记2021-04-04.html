@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+Django3.0
+
+ul>li*4 Tab
+
+python manage.py migrate
+python manage.py createsuperuser
+521
+521
+
+
+
+Django2.0:
+使用CMD创建Django项目:mysite
+cmd：django-admin startproject  mysite
+
+导入数据库：
+python manage.py migrate
+
+创建管理员：
+python manage.py createsuperuser
+521/in123456
+
+在Django项目中创建Django应用:article
+python mange.py startapp article
+
+
+数据库迁移：
+python manage.py makemigrations ->制造迁移
+python manage.py migrate->迁移
+
+Article.objects.get(条件)
+Article.objects.all()Article.objects.filter(条件)
+
+Django2导入其他包里面的函数:
+ from 文件名(包名) import 函数
+
+
+修改模型要更新数据库：
+python manage.py makemigrations
+python manage.py migrate
+ (需要设置默认值)
+
+
+ 改模型之前要备份数据库：
+ 复制粘贴
+
+ 添加额外的字段：
+ 数据库迁移时候：设置当前默认值
+</body>
+</html>
